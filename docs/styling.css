@@ -1,0 +1,72 @@
+body {
+    background: #C6B1E7;
+    font-family: "Copperplate", Copperplate, fantasy;
+    color: #482189;
+}
+
+a {
+    color: black;
+}
+
+h1,
+h3,
+h5 {
+    text-align: center;
+    color: #A21A64;
+}
+
+h2,
+h4 {
+    color: #1F4B84;
+}
+
+h2 {
+    text-align: center; 
+}
+
+img.gemi,
+img.kodi,
+img.bayne {
+    width: 40%;
+    height: auto; 
+}
+
+section.gemi, 
+section.kodi, 
+section.bayne {
+    margin: 0; 
+}
+
+figure {
+    width: 100%;
+    text-align: center; 
+    margin: 0; 
+    padding: 0;
+}
+
+figcaption {
+    padding: 0% 10% 10% 10%;
+}
+
+figure.memes {
+    text-align: center; 
+    color: #BB3A80;
+}
+
+img.memes {
+    width: 60%;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
