@@ -1,6 +1,10 @@
 body {
-    background: #C6B1E7;
+    background: #e6ecff;
     font-family: "Copperplate", Copperplate, fantasy;
+    color: #482189;
+}
+
+hr {
     color: #482189;
 }
 
@@ -12,12 +16,12 @@ h1,
 h3,
 h5 {
     text-align: center;
-    color: #A21A64;
+    color: #9999ff  ;
 }
 
 h2,
 h4 {
-    color: #1F4B84;
+    color: #482189;
 }
 
 h2 {
@@ -35,6 +39,41 @@ section.gemi,
 section.kodi, 
 section.bayne {
     margin: 0; 
+}
+
+section.education h3,
+section.revcourses h3,
+section.projects h3,
+section.experience h3,
+section.skills h3,
+section.volunteer h3 {
+    text-align: left; 
+    display: flex; 
+}
+
+div.edu,
+div.seniordes, 
+div.duck,
+div.wabtec {
+    display: flex; 
+    justify-content: space-between; 
+}
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+#gpa, 
+#swengcap, 
+#duckproj, 
+#wabtecpos {
+    text-align: left; 
+}
+#dean, 
+#swengprogdate, 
+#duckdates, 
+#wabtecdates {
+    text-align: right;
 }
 
 figure {
@@ -57,16 +96,39 @@ img.memes {
     width: 60%;
 }
 
-nav {
-  margin: 0;
-  padding: 0;
+table.courses,
+table.skills {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
 }
 
-ul {
+td, th{
+    margin: 20px 0px;
+    padding: 5px;
+    border: 1px solid;
+}
+ul.nav {
+    list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color:  #8080ff;
+}
+li.nav {
+    float: left; 
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
 }
 
-li {
-    display: inline;
+li a:hover {
+    background-color: #482189;
+    color: white;
 }
+
+
