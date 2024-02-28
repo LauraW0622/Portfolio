@@ -1,33 +1,84 @@
 body {
-    background: #e6ecff;
+    background:  #3e2723;
     font-family: "Copperplate", Copperplate, fantasy;
-    color: #482189;
+    color:  #fafafa;
 }
 
 hr {
-    color: #482189;
+    color: #ff9800;
 }
 
 a {
-    color: black;
+    color: #fafafa;
 }
 
 h1,
 h3,
 h5 {
     text-align: center;
-    color: #9999ff  ;
+    color:  #ffc107;
 }
 
 h2,
 h4 {
-    color: #482189;
+    color:  #ff9800;
 }
 
 h2 {
     text-align: center; 
 }
 
+figure {
+    width: 100%;
+    text-align: center; 
+    margin: 0; 
+    padding: 0;
+}
+
+figcaption {
+    padding: 0% 10% 10% 10%;
+}
+
+img {
+    border-radius: 10px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:   #827717;
+    border-radius: 5px;
+}
+li.nav {
+    float: left; 
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+
+li a:hover {
+    background-color:  #a1887f;
+    color: white;
+}
+
+
+/* Index */
+figure.memes {
+    text-align: center; 
+    color: #fafafa;
+}
+img.memes {
+    width: 60%;
+}
+
+
+/* Gallery */
 img.gemi,
 img.kodi,
 img.bayne {
@@ -41,6 +92,8 @@ section.bayne {
     margin: 0; 
 }
 
+
+/* Resume */
 section.education h3,
 section.revcourses h3,
 section.projects h3,
@@ -76,26 +129,6 @@ div {
     text-align: right;
 }
 
-figure {
-    width: 100%;
-    text-align: center; 
-    margin: 0; 
-    padding: 0;
-}
-
-figcaption {
-    padding: 0% 10% 10% 10%;
-}
-
-figure.memes {
-    text-align: center; 
-    color: #BB3A80;
-}
-
-img.memes {
-    width: 60%;
-}
-
 table.courses,
 table.skills {
     width: 100%;
@@ -108,27 +141,7 @@ td, th{
     padding: 5px;
     border: 1px solid;
 }
-ul.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:  #8080ff;
-}
-li.nav {
-    float: left; 
-}
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none; 
-}
 
-li a:hover {
-    background-color: #482189;
-    color: white;
-}
+
 
 
