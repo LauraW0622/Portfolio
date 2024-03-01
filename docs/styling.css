@@ -39,46 +39,109 @@ figcaption {
     padding: 0% 10% 10% 10%;
 }
 
-img {
-    border-radius: 10px;
+div.navbar{
+    background-image: url('images/sunflower.jpg'); 
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
-
 ul.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:   #827717;
     border-radius: 5px;
+    height: 100px;
 }
 li.nav {
     float: left; 
 }
 li a {
-    display: block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none; 
+    padding: 0px 14px;
+    height: 100px;
+    font-size: 24px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 li a:hover {
-    background-color:  #a1887f;
+    background-color:  #3C2800;
     color: white;
 }
 
+img {
+    border-radius: 30%;
+}
 
-/* Index */
+
+/* ******************************** Index ******************************** */
+body.index{
+    background-image: url('images/paper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    font-size: 5mm;
+    font-family: "Arial", sans-serif;
+}
+
+div.aboutme {
+    display: flex;
+}
+
+div.hobbies {
+    justify-content: left;
+}
+
+#flower {
+    width: 75%;
+    justify-content: right;
+    align-items: center;
+}
+
+section.index{
+    margin: 40px 100px;
+    color: #3C2800;
+}
 figure.memes {
     text-align: center; 
     color: #fafafa;
 }
 img.memes {
     width: 60%;
+    border-radius: 10%;
 }
 
+figcaption.memes {
+    font-size: 2em;
+    color: #3C2800;
+}
+p.memes, h4.memes {
+    text-align: center;
+}
 
-/* Gallery */
+#aboutme {
+    font-size: 3em;
+    color: #6F2C44;
+}
+
+h4.aboutme {
+    font-size: 2em; 
+    font-family: "Century Gothic", sans-serif;
+    color: #6F2C44;
+}
+
+h1.memes {
+    color: #6F2C44;
+}
+
+/* ******************************** Gallery ******************************** */
+body.gallery{
+    background-image: url('images/wood.jpg');
+    background-size: 100%;
+    opacity: 0.9;
+}
 img.gemi,
 img.kodi,
 img.bayne {
@@ -92,8 +155,43 @@ section.bayne {
     margin: 0; 
 }
 
+#puptitle {
+    font-size: 100px;
+}
 
-/* Resume */
+h2.dogs {
+    font-size: 50px;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+figcaption.dogcapt {
+    font-size: 30px; 
+    font-family: "Arial", console; 
+}
+
+
+/* ******************************** Resume ******************************** */
+body.resume {
+    background-image: url('images/pg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    font-family: "Lucida Sans";
+    color: #fafafa;
+}
+
+#res {
+    margin: 40px 100px;
+}
+
+#name{
+    font-size: 3pc;
+}
+
+#resinfo{
+    font-size: 3ex;
+}
+
 section.education h3,
 section.revcourses h3,
 section.projects h3,
@@ -102,6 +200,7 @@ section.skills h3,
 section.volunteer h3 {
     text-align: left; 
     display: flex; 
+    font-size: 3ex;
 }
 
 div.edu,
@@ -111,6 +210,7 @@ div.wabtec {
     display: flex; 
     justify-content: space-between; 
 }
+
 div {
     margin: 0px;
     padding: 0px;

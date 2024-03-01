@@ -1,63 +1,53 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
-     * On Windows, go to the browser and type control + o and browse to find this file to open it.
-     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
-     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
-    -->
+<html>
+   
     <head>
         <link rel="stylesheet" href="styling.css"/>
-        <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
         <title>Starter HTML</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Here is a place where we can add a little styling code called CSS to this page. 
-            I used it to apply a background color to the body element.
-        -->        
+            
     </head>
-    <body>
-        <nav>
-            <ul class="nav"> 
-                <li class="nav"><a href='index.html'>Home</a></li>
-                <li class="nav"><a href='gallery.html'>Gallery</a></li>
-                <li class="nav"><a href='resume.html'>Resume</a></li>
-            </ul>
-        </nav>
+    <body class="index">
+        <div class="navbar">
+            <nav>
+                <ul class="nav"> 
+                    <li class="nav"><a href='index.html'>Home</a></li>
+                    <li class="nav"><a href='gallery.html'>Gallery</a></li>
+                    <li class="nav"><a href='resume.html'>Resume</a></li>
+                </ul>
+            </nav>
+        </div>        
         
-        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <h1>Laura Wilson's WebPage</h1>
-        <h3>Messing Around With HTML</h3>
-        <h5>A Digital Humanities Production</h5>
+        <section class="index">
+           <h1 id="aboutme">About Me</h1>
+             
+        <hr>
         
-        <hr></hr>
         
-        <p>I'd like to think I am a <strong>BOLD</strong> person. I'd consider myself a <i>Type X</i> kind of person, if you will... 
-           <br></br> A mixing pot of traits.</p>
-        
-        <p><a href="https://www.hiresuccess.com/help/understanding-the-4-personality-types">Click here to check out more personality types!</a></p>
-        
-        <div>
-            <h4>Outdoor Hobbies:</h4>
+            <p>HELLO! My name is Laura Wilson. I am a non-traditional (aka OLD) student at Penn State Behrend. 
+        I am currently a senior in the Software Engineering Bachelor program.</p>
+        <p>I have an amazing daughter who is almost 15 years old and wonderful and supportive husband who
+        has selflessly carried the weight of our family through my persuit of a new degree.</p>        
+            
+        <div class="aboutme">
+        <div class="hobbies">
+            <h4 class="aboutme">Outdoor Hobbies:</h4>
             <ul>
                 <li>Hiking</li>
                 <li>Kayaking</li>
                 <li>Rock Climbing</li>
                 <li>Horseback Riding</li>
             </ul>
-            <h4>Indoor Hobbies:</h4>
+            <h4 class="aboutme">Indoor Hobbies:</h4>
             <ul>
                 <li>Reading (I particularly love my Kindle!)</li>
                 <li>Crocheting</li>
                 <li>Snuggling Doggos</li>
                 <li>Binging Streaming Services</li>
             </ul>
-        </div>
         
-        <div>
-            <h4>My Favorite Movies:</h4>
+            <h4 class="aboutme">My Favorite Movies:</h4>
             <ol>
                 <li>Office Space</li>
                 <li>Monty Python and The Holy Grail</li>
@@ -65,23 +55,29 @@
                 <li>The Heat</li>
             </ol>
         </div>
-       
-    <br></br>
-        <div class="memes">
-            <h4 class="memes">Enjoy some software engineering memes!</h4>
-            <figure class="memes">
-                <img class="memes" src="images\why.jpg"/>
-                <figcaption>The never ending emotional roller coaster!</figcaption>
-            </figure>
-            <figure class="memes">
-                <img class="memes" src="images\runtime.png"/>
-                <figcaption>Never fails!</figcaption>
-            </figure>
-            <figure class="memes">
-                <img class="memes" src="images\nochill.webp"/>
-                <figcaption>Literally no chill...</figcaption>
+            <figure>
+                <img id="flower" alt="sunflower" src="images/sunflower.png"/>
             </figure>
         </div>
+       
+    <hr>
+        <h1 class="memes">ENJOY SOME MEMES!</h1>
+        <div class="memes">
+            <h2 class="memes">Enjoy some software engineering memes!</h2>
+            <figure class="memes">
+                <img class="memes" src="images/why.jpg"/>
+                <figcaption class="memes">The never ending emotional roller coaster!</figcaption>
+            </figure>
+            <figure class="memes">
+                <img class="memes" src="images/runtime.png"/>
+                <figcaption class="memes">Never fails!</figcaption>
+            </figure>
+            <figure class="memes">
+                <img class="memes" src="images/nochill.webp"/>
+                <figcaption class="memes">Literally no chill...</figcaption>
+            </figure>
+        </div>
+        </section>
         
     </body>
 </html>
