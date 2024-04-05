@@ -243,5 +243,13 @@ td, th{
 }
 
 
+/* ******************************** Projects ******************************** */
+body.projects {
+    background-image: url('images/sunflowermauve.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+
 
 
