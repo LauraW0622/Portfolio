@@ -276,6 +276,7 @@ section.corpus {
 div.n3gram,
 div.n5gram {
     display: flex;
+    text-align: center;
 }
 
 img.n3gram, 
