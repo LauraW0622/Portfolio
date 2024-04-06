@@ -136,10 +136,6 @@ body.gallery{
     opacity: 0.8;
 }
 
-h2.corpus {
-    color: #3f021b;
-}
-
 figure.gemi,
 figure.kodi,
 figure.bayne {
@@ -180,7 +176,7 @@ figcaption.dogcapt {
 
 /* ******************************** Resume ******************************** */
 body.resume {
-    background-image: url('images/pg.jpg');
+    background-image: url('images/brown.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
@@ -253,7 +249,7 @@ td, th{
 
 /* ******************************** Projects ******************************** */
 body.projects {
-    background-image: url('images/sunflowermauve.jpg');
+    background-image: url('images/yellowbrown.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
@@ -263,15 +259,20 @@ body.projects {
 
 /* ********************************* Corpus ********************************* */
 body.corpus{
-    background-image: url('images/pg.webp');
+    background-image: url('images/pg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%; 
      
 }
 
+h2.corpus {
+    color: #3f021b;
+}
+
 section.corpus {
-    color: white;
+    color: #3f021b;
+    text-align: justify;
 }
 
 div.n3gram,
