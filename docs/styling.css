@@ -267,38 +267,31 @@ body.corpus{
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%; 
+     
 }
 
 section.corpus {
-    color: #3C2800;
+    color: white;
 }
 
 div.n3gram,
-div.n5gram
+div.n5gram,
 div.collate,
 div.voyant {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
 
-img.n3gram, 
-img.n5gram,
-img.collate, 
-img.voyant {
-    width: 40%;
+div.wrapper {
+    flex: 1;
+    text-align: center;
+}
+
+.wrapper img {
+    max-width: 100%;
     height: auto; 
-    
-}
-
-figure.n3gram,
-figure.n5gram,
-figure.collate, 
-figure.voyant {
-    width: 100%;
-    text-align: center; 
-    margin: 0; 
-    padding: 0;
+    display: inline-block;
 }
 
 figcaption.n3gram, 
