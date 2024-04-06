@@ -133,7 +133,7 @@ h1.memes {
 body.gallery{
     background-image: url('images/wood.jpg');
     background-size: 100%;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 h2.corpus {
@@ -274,20 +274,39 @@ section.corpus {
 }
 
 div.n3gram,
-div.n5gram {
+div.n5gram
+div.collate,
+div.voyant {
     display: flex;
     text-align: center;
+    align-items: center;
 }
 
 img.n3gram, 
-img.n5gram {
-    width: 45%;
+img.n5gram,
+img.collate, 
+img.voyant {
+    width: 40%;
     height: auto; 
+    
+}
+
+figure.n3gram,
+figure.n5gram,
+figure.collate, 
+figure.voyant {
+    width: 100%;
+    text-align: center; 
+    margin: 0; 
+    padding: 0;
 }
 
 figcaption.n3gram, 
-figcaption.n5gram {
+figcaption.n5gram,
+figcaption.collate,
+figcaption.voyant {
     font-size: 20px; 
     font-family: "Arial", console; 
     color: black;
+    text-align: center;
 }
