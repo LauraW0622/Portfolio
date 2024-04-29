@@ -309,16 +309,51 @@ figcaption.voyant {
 /* ------------------------------Time Mapper----------------------------------- */
  iframe {   
     border: none; 
-    width: 100%;
-    height: 780px;
- }
+}
  
  
  /* -----------------------------Game Analysis-------------------------------- */
- .game img {
-    max-width: 100%;
-    height: auto; 
+ img.game {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50%;
+    height: auto;
+}
+
+h4.game{
+    text-align: center;
+}
+
+div.gamelist {
+    text-align: center; 
+}
+
+ol.game {
     display: inline-block;
+    text-align: left;
+}
+ul.game {
+   display: inline-block;
+   text-align: left;
+}
+
+p.game {
+    text-align: center;
+    margin: 2cm 10px;
+}
+
+iframe{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 80%;
+}
+
+div.analysis, 
+p.analysis
+h4.analysis{
+    text-align: left; 
 }
  
  
